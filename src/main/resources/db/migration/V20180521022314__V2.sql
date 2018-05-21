@@ -1,1 +1,1 @@
-insert into users (name) values ('Rajan2');
+insert into users (name) values ('Salman Khan');
