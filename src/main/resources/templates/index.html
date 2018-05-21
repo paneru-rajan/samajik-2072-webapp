@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="base :: common_header(~{::title},~{})">
+    <title>This is My Title</title>
+</head>
+<body>
+<div th:replace="base :: nav"></div>
+<main role="main" class="container mt-5 pt-3">
+        <div class="row"></div>
+        <div class="col">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                <th:block th:each="user : ${allUsers}">
+                    <tr>
+                        <td th:text="${user.id}"></td>
+                        <td th:text="${user.name}"></td>
+                    </tr>
+                </th:block>
+                </tbody>
+            </table>
+        </div>
+</main>
+<div th:replace="base :: script">
+</div>
+</body>
+</html>
