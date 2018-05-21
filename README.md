@@ -26,16 +26,16 @@ This Application designed to teach students.
         1. Create database named ```samajik-webapp``` otherwise, you need to change configuration on file [application.properties](src/main/resources/application.properties)
         1. Change Database Username, password and other setting in [application.properties](src/main/resources/application.properties)
 1. #### Running Application
-    1. **Method GET:** You can list all users EG: [http://localhost:8080/user](http://localhost:8080/user)
-    1. **Method GET:** You can list one user provided that you gave an id EG: [http://localhost:8080/user/2](http://localhost:8080/user/2)
-    1. **Method DELETE:** You can delete one user provided that you gave an id EG: [http://localhost:8080/user/2](http://localhost:8080/user/2)
-    1. **Method POST:** You can add a user provided that you gave data like below EG: [http://localhost:8080/user](http://localhost:8080/user)
+    1. **Method GET:** You can list all users EG: [http://localhost:8080/api/user](http://localhost:8080/api/user)
+    1. **Method GET:** You can list one user provided that you gave an id EG: [http://localhost:8080/api/user/2](http://localhost:8080/api/user/2)
+    1. **Method DELETE:** You can delete one user provided that you gave an id EG: [http://localhost:8080/api/user/2](http://localhost:8080/api/user/2)
+    1. **Method POST:** You can add a user provided that you gave data like below EG: [http://localhost:8080/api/user](http://localhost:8080/api/user)
         ```
         {
         	"name": "New name to be inserted into database"
         }
         ```
-    1. **Method PUT:** You can Update the given user provided that you gave data like below EG: [http://localhost:8080/user/3](http://localhost:8080/user/3)
+    1. **Method PUT:** You can Update the given user provided that you gave data like below EG: [http://localhost:8080/api/user/3](http://localhost:8080/api/user/3)
         ```
         {
             "name": "New name to be updated into database"
