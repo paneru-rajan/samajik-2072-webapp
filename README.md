@@ -14,6 +14,7 @@ This Application designed to teach students.
         ```
     1. For Other settings do as per your interest.
     1. Hit **Clone**
+    1. **IMPORTANT:** On Import Project Dialogue, In Import project form external model, Please Choose maven.
     1. All Maven dependency should be imported, this usually done automatically by Intellij, otherwise please reimport them. 
 1. #### Inorder to test api, download and install Postman 
     1. Please follow this [Link](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) to Install
